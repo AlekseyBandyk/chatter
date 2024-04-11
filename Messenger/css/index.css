@@ -1,0 +1,29 @@
+
+header {
+	display: flex;
+	align-items: space-beetwen;
+	height: !important 150px;
+	border: 1px solid green;
+}
+
+#chatter {
+	@font-face {
+		font-family: "Raleway";
+		src: "fonts/Raleway.ttf";
+	}
+	font-family: Raleway;
+	font-weight: 800;
+	height: 130px;
+}
+
+.head-right {
+	width: 80%;
+	border: 1px solid red;
+	display: flex;
+	height: 100%;
+	align-items: center;
+}
+
+.head-right-a{
+	height: 100%;
+}
