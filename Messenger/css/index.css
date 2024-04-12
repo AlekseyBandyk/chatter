@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "Raleway"; 
+  src: url("../fonts/Raleway.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: 800; 
+} 
 
 header {
 	display: flex;
@@ -7,16 +13,13 @@ header {
 }
 
 #chatter {
-	@font-face {
-		font-family: "Raleway";
-		src: "fonts/Raleway.ttf";
-	}
-	font-family: Raleway;
-	font-weight: 800;
-	height: 130px;
+	font-family: "Raleway";
+	margin: 0;
+	font-size: 100px;
+	
 }
 
-.head-right {
+.head-left {
 	width: 80%;
 	border: 1px solid red;
 	display: flex;
@@ -24,6 +27,21 @@ header {
 	align-items: center;
 }
 
-.head-right-a{
+.head-left-a{
 	height: 100%;
 }
+
+.head-right {
+	display: flex;
+	justify-content: center;
+	align-content: space-around;
+}
+
+#avatar{
+	width: 75px;
+	height: 75px;
+	border-radius: 50%;
+	border: 1px solid red;
+}
+
+.head-right-p {}
